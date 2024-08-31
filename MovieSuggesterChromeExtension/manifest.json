@@ -1,13 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "High Rated Movies Suggester",
-    "version": "1.0",
-    "description": "Suggests random English movies with high IMDb ratings.",
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "128": "logo.png"
-      }
-    },
-    "permissions": ["activeTab","storage"]
-  }
+  "manifest_version": 3,
+  "name": "High Rated Movies Suggester",
+  "version": "1.0",
+  "description": "Suggests random English movies with high IMDb ratings.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "logo.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

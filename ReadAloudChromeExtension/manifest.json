@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Read Aloud Extension",
+    "version": "1.0",
+    "description": "Reads aloud the content of a webpage.",
+    "permissions": ["activeTab", "scripting"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "logo.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["http://*/*", "https://*/*"], 
+        "js": ["content.js"]
+      }
+    ]
+  }

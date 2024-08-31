@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Coorporate Meme",
+    "version": "1.0",
+    "description": "Suggests random Corporate memes",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "128": "logo.png"
+      }
+    },
+    "permissions": [
+      "activeTab"
+    ]
+  }
